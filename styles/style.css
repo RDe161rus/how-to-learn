@@ -6,20 +6,91 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_red {
+  border: 2px solid red;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  background-color: #f2f2f2;
+  margin-bottom: 100px;
+  display: flex;
+
+
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/* logo в header */
+.logo_place_header {
+  width: 228px;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+/* Заголовок в header */
+.header__title {
+  width: 730px;
+  position: relative;
+  left: 64px;
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+  /* Параграф в header */
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+
+}
+/* ссылка в параграфе */
+.header__link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+/* илюстрация в header в нижнем правом углу */
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+
+/*cиний квадрат ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +100,13 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/* первая секция */
+/* .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-width: 784px;
+}
+ */
