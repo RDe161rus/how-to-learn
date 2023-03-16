@@ -101,7 +101,6 @@
 .description {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
 }
 
 .two-columns {
@@ -148,15 +147,27 @@
 /* начало второй секции  */
 .digits {
   margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .section-title {
   width: 60%;
   margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .section-subtitle {
   width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .table {
@@ -176,4 +187,24 @@
 
 .table__cell:nth-child(n + 5) {
   margin-bottom: 0px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.table__text-two {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
