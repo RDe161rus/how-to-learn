@@ -29,13 +29,17 @@
 }
 
 /* logo в header */
-.logo_place_header {
+.logo {
   width: 228px;
   height: 32px;
-  background-image: url(../images/logo_place_header.svg);
+
+}
+
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
+  background-image: url(../images/logo_place_header.svg);
 }
 
 /* Заголовок в header */
@@ -251,4 +255,76 @@
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+
+
+.kaufman {
+  background-color: #1f1f1f;
+  height: 700px;
+  border: 2px solid red;
+}
+
+
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  padding: 60px 0 40px;
+  color: white;
+}
+
+.footer__column {
+  height: 300px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  margin: 18px 0 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px 0 16px;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
