@@ -20,7 +20,6 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  margin-bottom: 100px;
   display: flex;
   align-items: center;
   position: relative;
@@ -70,6 +69,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+  text-decoration: none;
 }
 
 /* илюстрация в header в нижнем правом углу */
@@ -105,6 +105,7 @@
 .description {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -150,11 +151,11 @@
 
 /* начало второй секции  */
 .digits {
-  margin: 100px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 100px 0 100px;
 }
 
 .section-title {
@@ -179,6 +180,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+}
+
+.table_padding {
   padding-top: 60px;
 }
 
@@ -247,6 +252,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .img__feynman {
@@ -261,24 +267,22 @@
 /* fourth section main */
 .kaufman {
   background-color: #1f1f1f;
-  height: 700px;
   color: white;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   padding: 90px 0 90px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.section-title_theme_dark {
+ .section-title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   width: 60%;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
 
 }
 
@@ -291,21 +295,19 @@
 }
 
 .table_theme_dark {
+  position: relative;
   z-index: 4;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  margin: 80px auto;
+  margin-bottom: 80px;
 }
 
-.table__cell_theme_dark:nth-child(n+6) {
-  margin: 0;
+.table__cell_theme_dark:nth-of-type(n+6) {
+  margin-bottom: 0;
 }
 
 .table__heading_theme_dark{
@@ -362,7 +364,7 @@
 
 /* Автор */
 .footer__author {
-  margin: 18px 0 18px;
+  padding: 18px 0 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -373,6 +375,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 /* Контейнер под иконки и ссылки */
@@ -380,7 +383,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 20px 0 16px;
+  margin-bottom: 16px;
 }
 
 /* Ссылки  */
