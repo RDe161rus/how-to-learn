@@ -95,12 +95,6 @@
   right: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-}
-
 /* Начало блока content */
 .description {
   display: flex;
@@ -301,6 +295,7 @@
   padding-top: 80px;
 }
 
+/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   margin-bottom: 80px;
