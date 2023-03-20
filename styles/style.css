@@ -150,12 +150,12 @@
 
 .section-title {
   margin: 0;
-  width: 60%;
-  margin-bottom: 20px;
-  text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: center;
 }
 
 .section-subtitle {
@@ -254,7 +254,6 @@
 /* fourth section main */
 .kaufman {
   background-color: #1f1f1f;
-  color: white;
   padding: 90px 0 90px;
   overflow: hidden;
   position: relative;
@@ -264,23 +263,12 @@
 }
 
  .section-title_theme_dark {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  width: 60%;
-  margin-bottom: 20px;
-  text-align: center;
+  color: white;
 
 }
 
 .section-subtitle_theme_dark {
-  margin: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  text-align: center;
+  color: white;
 }
 
 .table_theme_dark {
@@ -296,18 +284,11 @@
 }
 
 .table__heading_theme_dark{
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
+  color: white;
 }
 
 .table__text_theme_dark {
-  margin: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  color: white;
 }
 
 .kaufman__triangle {
@@ -339,7 +320,6 @@
   width: 90%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -371,7 +351,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 20px;
+
 }
 
 /* Контейнер под иконки и ссылки */
@@ -379,7 +359,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-bottom: 16px;
+  margin: 20px 0 16px;
 }
 
 /* Ссылки  */
@@ -387,7 +367,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
   text-decoration: none;
   color: white;
 }
