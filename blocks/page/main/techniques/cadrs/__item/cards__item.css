@@ -1,7 +1,6 @@
-.techniques {
-  padding-top: 100px;
-  width: 80%;
-  margin: auto;
+.cards__item {
+  margin: 0;
+  width: 240px;
   display: flex;
   flex-direction: column;
   align-items: center;
