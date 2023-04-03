@@ -1,13 +1,70 @@
 @import url(../vender/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/header/header.css);
+@import url(../blocks/page/header/__title/header__title.css);
+@import url(../blocks/page/header/__subtitle/header__subtitle.css);
+@import url(../blocks/page/header/__link/header__link.css);
+@import url(../blocks/page/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/page/header/__square-pic/header__square-pic.css);
+
 @import url(../blocks/page/main/description/description.css);
+@import url(../blocks/page/main/description/two-columns/two-columns.css);
+@import url(../blocks/page/main/description/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/page/main/description/two-columns/__main-text/two-columns____main-text.css);
+@import url(../blocks/page/main/description/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/page/main/description/two-columns/__paragraph/__span-accent/two-columns__span-accent.css);
+
 @import url(../blocks/page/main/techniques/techniques.css);
+
+
+
+
+
 @import url(../blocks/page/main/video/video.css);
+
+
+
+
+
 @import url(../blocks/page/main/oakley/oakley.css);
+
+
+
+
+
 @import url(../blocks/page/main/feynman/feynman.css);
+
+
+
+
+
 @import url(../blocks/page/main/digits/digits.css);
+
+
+
+
+
 @import url(../blocks/page/main/khan/khan.css);
+
+
+
+
+
 @import url(../blocks/page/main/kaufman/kaufman.css);
+
+
+
+
+
 @import url(../blocks/page/main/resources/resources.css);
+
+
+
+
+
+
+@import url(../blocks/page/footer/footer.css);
+@import url(../blocks/page/footer/footer.css);
+@import url(../blocks/page/footer/footer.css);
+@import url(../blocks/page/footer/footer.css);
 @import url(../blocks/page/footer/footer.css);
